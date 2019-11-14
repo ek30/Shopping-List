@@ -75,8 +75,11 @@ button {
 }
 
 #enter {
-  width: 10%;
-  margin-left: 45%;
+  width: 16%;
+  margin-left: 42%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1em;
 }
 
 ul {
