@@ -95,11 +95,14 @@ li {
 }
 
 footer {
-  font-family: 'Squada One', cursive;
+  font-family: 'Ropa Sans', sans-serif;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background: transparent;
   text-align: center;
+  font-weight: 600;
+  color: rgba(0,0,0,0.5);
+}
 }
