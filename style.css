@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(to right, rgb(247, 244, 250), rgb(195, 237, 177));
+  background-image: url("bgphoto3.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  margin: 0;
+}
+
+@media (max-width: 991.98px) {
+      body {
+        font-size: 1.7rem; }
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Special Elite', cursive;
+  color: rgba(87, 9, 28, 1);
+  font-size: 3em;
+  letter-spacing: 0.2em;
+  margin-top: 0em;
+}
+
+p {
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+input {
+  background-color: rgba(255,255,255,0.5);
+  width: 20%;
+  margin-left: 40%;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 1em;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.hide {
+  display: none;
+}
+
+.instructions {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: black;
+    font-size: 0.8em;
+    padding: 2px 6px 2px 6px;
+    margin-left: 1em;
+    border-radius: 15px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    font-family: 'Squada One', cursive;
+}
+
+#enter {
+  width: 10%;
+  margin-left: 45%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    margin-bottom: 1em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 600;
+    color: rgba(0,0,0,0.7);
+    font-size: 1.1em;
+}
+
+footer {
+  font-family: 'Squada One', cursive;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  text-align: center;
+}
